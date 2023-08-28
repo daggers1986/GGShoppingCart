@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Information";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>I've created a .net core 6 MVC solution.</p>
+<p>I've not integrated with auth2.0 before and did try to get it working by integrating with Auth0. I managed to add a login button next to my other login authentication with DB. I got it to redirect to the authentication portion to select account, but my redirect breaks :D</p>
+<p>I tried to enable docker into the solution, but my personal PC is very old and i'm not able to enable hyper-V so it's not allowing me to run docker :(</p>
+<p>I've added swagger generation so you are welcome to add /swagger at the url and will generate it.</p>
+<p>Bonus point 7: One of the first things i would tackle is setup performance testing and see where the threshold starts having issues.</p>
+<p>I would scale purely on adding either more VM's to you infrastructure or updating existing VM's cpu/memory etc.</p>
+<p>Lastly I would use a loadbalancing mecanishm to distribute the load onto the VM's as traffic comes in and out.</p>
